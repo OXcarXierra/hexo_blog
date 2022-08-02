@@ -1,17 +1,16 @@
 ---
 title: 2022년 5월 회고록
-tags: [회고]
+tags: [retrospective]
 categories:
-  - OKR
+  - Monthly Retrospectives
 thumbnail: ''
 permalink: ''
 date: 2022-05-31 17:47:53
+readingtime: 10
 ---
 
 이번 달 초에 다양한 사람들을 만나면서 그들의 열정과 성실함에서 참 많이 배울 수 있었다.
 덕분에 '갓생'살기를 다짐했고, OKR도 세우고, 미래에 대한 다양한 고찰을 해봤던 것 같다.
-
-<!-- more -->
 
 - BohYoh Shibata의 **&lt;자료구조와 함께 배우는 알고리즘 입문&gt;** 책을 모두 읽었다. 아무래도 Backend쪽을 이해하기 위해선 필수적일 것 같아 골라온 책이다.
   대학 강의만큼 설명의 깊이가 깊지는 않았지만, 전반적으로 어렵지 않게 이해할 수 있었다.

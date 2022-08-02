@@ -83,16 +83,10 @@
                         >
                             <%- __('post.read_more') %>
                         </a>
-                        <% if (post.readingtime) { %>
-                            <span class="postShorten-readingtime">
-                                <%= ' - ' + post.readingtime + ' min read' %>
-                            </span>
-                        <% } %>
                     <% } %>
                 </div>
             <% } else { %>
                 <div class="postShorten-content">
-                    <%- postContent %>
                     <% if (theme.image_gallery) { %>
                         <%- partial('post/gallery', {photos: post.photos, post: post})%>
                     <% } %>

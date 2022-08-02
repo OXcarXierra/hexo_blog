@@ -1,16 +1,14 @@
 ---
 title: 2022년 6월 회고록
-tags: [회고]
+tags: [retrospective]
 categories:
-  - OKR
+  - Monthly Retrospectives
 thumbnail: ''
 permalink: ''
 date: 2022-06-30 17:47:53
 ---
 
 그저 클론코딩이나 강의 수강에서 그친다면 그 기술을 학습했다고 할 수 없을 것이다. 개발을 공부했다면 그 내용을 바탕으로 한 산출물이 반드시 있어야 한다. 그렇기에 6월 한달은 개인 사이드 프로젝트에 매진해 보았다.
-
-<!-- more -->
 
 - Django와 React Native를 이용해 개발할 만한 주제를 탐색하다 USFK Bus Schedule App으로 정했고, 6월 초 간단한 구상 이후 본격적인 개발을 시작했다. 현재 백엔드 서버는 개발 및 배포가 완료되었고, 프론트엔드 앱도 기능 구현이 모두 완료되었다. 앞으로 남은건 간단한 UI 수정과 App Store 심사 및 배포 과정 정도이다. Django Model 구상 및 Django Rest Framework, MySQL DB를 다루는 방법을 배울 수 있었다.
 

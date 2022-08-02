@@ -103,8 +103,26 @@ theme: tranquilpeak
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
+  repo: https://github.com/OXcarXierra/OXcarXierra.github.io.git
+  branch: main
 
 node_sass:
   outputStyle: nested
   precision: 5
   sourceComments: false
+
+nofollow:
+  enable: true
+  exclude:
+
+# sitemap auto generator
+sitemap:
+  path: sitemap.xml
+  tag: true # 사이트맵에 태그 주소 포함 여부
+  category: true # 사이트맵에 카테고리 주소 포함 여부
+
+feed:
+  type: atom
+  path: feed.xml
+  limit: 20
+  hub:

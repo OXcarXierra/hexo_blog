@@ -1,13 +1,13 @@
 ---
 title: USFK Bus Schedule 앱 제작 후기 및 Troubleshooting
-tags: [React Native, Django]
+tags: [react native, django]
 categories: [Development]
 thumbnail: ''
 permalink: ''
 date: 2022-06-25 17:27:45
 ---
 
-React Native 라이브러리로 앱을, Django와 MySQL DB 기반으로 서버를 제작하며 배운 점들
+**React Native 라이브러리로 앱을, Django와 MySQL DB 기반으로 서버를 제작하며 배운 점들**
 
 <!-- excerpt -->
 

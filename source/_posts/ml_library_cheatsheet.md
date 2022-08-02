@@ -7,7 +7,7 @@ permalink: ''
 date: 2022-07-09 17:27:45
 ---
 
-What I learned in Kaggle Pandas, Seaborn course
+**What I learned in Kaggle Pandas, Seaborn course**
 
 <!-- excerpt -->
 
