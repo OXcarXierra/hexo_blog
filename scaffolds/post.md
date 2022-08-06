@@ -3,8 +3,9 @@ title: {{ title }}
 date: {{ date }}
 tags: []
 categories: []
-thumbnail: ''
 permalink: ''
+thumbnailImage: ''
+thumbnailImagePosition: right
 ---
 
 <!-- excerpt -->

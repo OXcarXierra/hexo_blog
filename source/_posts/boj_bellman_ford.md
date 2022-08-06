@@ -2,7 +2,8 @@
 title: Bellman-Ford 알고리즘
 tags: [bellman-ford, graph]
 categories: [Algorithm]
-thumbnail: ''
+thumbnailImage: https://i.imgur.com/ydX4P1X.png
+thumbnailImagePosition: right
 permalink: ''
 date: 2022-08-02 16:52:10
 ---

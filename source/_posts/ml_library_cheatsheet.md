@@ -2,7 +2,7 @@
 title: ML Library cheatsheet
 tags: [pandas, seaborn]
 categories: [ML]
-thumbnail: ''
+thumbnailImage: ''
 permalink: ''
 date: 2022-07-09 17:27:45
 ---

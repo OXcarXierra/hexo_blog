@@ -3,7 +3,7 @@ title: 2022년 6월 회고록
 tags: [retrospective]
 categories:
   - Monthly Retrospectives
-thumbnail: ''
+thumbnailImage: ''
 permalink: ''
 date: 2022-06-30 17:47:53
 ---

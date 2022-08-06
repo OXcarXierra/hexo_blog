@@ -3,7 +3,7 @@ title: 2022년 5월 회고록
 tags: [retrospective]
 categories:
   - Monthly Retrospectives
-thumbnail: ''
+thumbnailImage: ''
 permalink: ''
 date: 2022-05-31 17:47:53
 readingtime: 10

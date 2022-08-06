@@ -2,7 +2,8 @@
 title: USFK Bus Schedule 앱 제작 후기 및 Troubleshooting
 tags: [react native, django]
 categories: [Development]
-thumbnail: ''
+thumbnailImage: 'https://imgur.com/LZXt7Dn.png'
+thumbnailImagePosition: right
 permalink: ''
 date: 2022-06-25 17:27:45
 ---
