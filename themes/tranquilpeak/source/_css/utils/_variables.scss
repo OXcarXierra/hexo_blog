@@ -4,7 +4,7 @@
 // Font families
 $merriweather-serif: 'Merriweather', serif; // 이건 지우면 에러나더라고요
 $nanum-sans-kr: 'NanumSquareRound', 'Helvetica Neue', sans-serif; // 기본 폰트
-$nanum-coding: 'Source Code Pro', 'NanumSquareRound', Consolas; // 코드 폰트
+$source-code-pro: 'Source Code Pro', 'Merriweather', Consolas; // 코드 폰트
 
 $font-family-base: $nanum-sans-kr; // 기본폰트 바꾸기
 
@@ -14,14 +14,14 @@ $font-families: (
   // base
   'headings': $nanum-sans-kr,
   // components
-  'code': $merriweather-serif,
+  'code': $source-code-pro,
   'caption': $nanum-sans-kr,
   'image-gallery': $nanum-sans-kr,
   'post-header-cover': $nanum-sans-kr,
   'post-meta': $nanum-sans-kr,
   'post-content': $nanum-sans-kr,
   'post-excerpt-link': $nanum-sans-kr,
-  'highlight': $nanum-coding,
+  'highlight': $source-code-pro,
   // layout
   'sidebar': $nanum-sans-kr
 );

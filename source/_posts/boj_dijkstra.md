@@ -1,5 +1,5 @@
 ---
-title: Dijkstra 알고리즘 - BOJ 1753 최단경로
+title: Dijkstra 알고리즘 (최단 경로 문제)
 tags: [dijkstra algorithm, graph]
 categories: [Algorithm]
 thumbnailImage: https://i.imgur.com/ydX4P1X.png
@@ -8,7 +8,7 @@ permalink: ''
 date: 2022-07-26 22:27:45
 ---
 
-######
+**BOJ 1753번 최단경로**
 
 <!-- excerpt -->
 <!-- toc -->

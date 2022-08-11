@@ -1,200 +1,246 @@
 /// Mixin helper to display the sidebar in medium size
 @mixin sidebar-md {
-    width: map-get($sidebar, md-screen-width);
+  width: map-get($sidebar, md-screen-width);
 
-    // Author information
-    .sidebar-profile {
-        .sidebar-profile-picture {
-            width:          30px;
-            height:         30px;
-            line-height:    30px;
-            vertical-align: middle;
-            border-radius:  30px;
-        }
-        .sidebar-profile-name {
-            display: none;
-        }
+  // Author information
+  .sidebar-profile {
+    .sidebar-profile-picture {
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      vertical-align: middle;
+      border-radius: 30px;
     }
-    // Buttons
-    ul.sidebar-buttons {
-        li.sidebar-button {
-            text-align: center;
+    .sidebar-profile-name {
+      display: none;
+    }
+  }
+  .sidebar-counts {
+    display: none;
+  }
+  // Buttons
+  ul.sidebar-buttons {
+    li.sidebar-button {
+      text-align: center;
 
-            .sidebar-button-link {
-                text-align: center;
-                width:      100%;
+      .sidebar-button-link {
+        text-align: center;
+        width: 100%;
 
-                .sidebar-button-icon {
-                    font-size:      1.8rem;
-                    display:        inline-block;
-                    text-align:     center;
-                    width:          30px;
-                    height:         30px;
-                    line-height:    30px;
-                    padding-top:    0;
-                    vertical-align: middle;
-                }
-                .sidebar-button-desc {
-                    display: none;
-                }
-            }
+        .sidebar-button-icon {
+          font-size: 1.8rem;
+          display: inline-block;
+          text-align: center;
+          width: 30px;
+          height: 30px;
+          line-height: 30px;
+          padding-top: 0;
+          vertical-align: middle;
         }
+        .sidebar-button-desc {
+          display: none;
+        }
+      }
     }
-    // Used to animate the sidebar (pushed effect)
-    &.pushed {
-        @include prefix(transform, translate3d(#{map-get($sidebar, md-screen-width)}, 0, 0), 'webkit' 'moz');
-    }
+  }
+  // Used to animate the sidebar (pushed effect)
+  &.pushed {
+    @include prefix(
+      transform,
+      translate3d(#{map-get($sidebar, md-screen-width)}, 0, 0),
+      'webkit' 'moz'
+    );
+  }
 }
 
 /// Mixin helper to display the sidebar in large size
 @mixin sidebar-lg {
-    width: map-get($sidebar, lg-screen-width);
+  width: map-get($sidebar, lg-screen-width);
 
-    // Author information
-    .sidebar-profile {
-        height:         130px;
-        padding-top:    40px;
-        padding-bottom: 7.5px;
+  // Author information
+  .sidebar-profile {
+    height: 130px;
+    padding-top: 40px;
+    padding-bottom: 7.5px;
 
-        .sidebar-profile-picture {
-            width:         90px;
-            height:        90px;
-            border-radius: 90px;
-            margin-bottom: 5px;
-        }
-        .sidebar-profile-name {
-            font-size: 1.6rem;
-        }
+    .sidebar-profile-picture {
+      width: 90px;
+      height: 90px;
+      border-radius: 90px;
+      margin-bottom: 5px;
     }
-    // Buttons
-    ul.sidebar-buttons {
-        li.sidebar-button {
-            text-align: left;
+    .sidebar-profile-name {
+      font-size: 1.6rem;
+    }
+  }
 
-            .sidebar-button-link {
-                text-align:   left;
-                width:        auto;
-                padding-left: 23px;
-                padding-top:  0;
-
-                // Font-awesome icon
-                .sidebar-button-icon {
-                    font-size:      1.8rem;
-                    display:        inline-block;
-                    text-align:     center;
-                    width:          30px;
-                    height:         30px;
-                    line-height:    30px;
-                    padding-top:    0;
-                    vertical-align: middle;
-                    margin-right:   15px;
-                }
-                // Description (name) of a link
-                .sidebar-button-desc {
-                    display:        inline-block;
-                    width:          auto;
-                    height:         35px;
-                    line-height:    35px;
-                    font-size:      1.5rem;
-                    letter-spacing: 0.3px;
-                    vertical-align: middle;
-                }
-            }
+  .sidebar-counts {
+    width: 90%;
+    padding: 0 0 5% 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    .sidebar-count-button {
+      justify-content: center;
+      flex: 1;
+      text-align: center;
+      .sidebar-count-link {
+        color: map-get($sidebar, color);
+        &:hover,
+        &:active {
+          text-decoration: none;
+          color: lighten(map-get($sidebar, color), 35);
         }
+        .sidebar-count-title {
+          margin-bottom: 5px;
+          font-size: 1.3rem;
+          letter-spacing: 0.3px;
+        }
+        .sidebar-count-number {
+          font-size: 2.2rem;
+          letter-spacing: 0.3px;
+        }
+      }
     }
-    // Used to animate the sidebar (pushed effect)
-    &.pushed {
-        @include prefix(transform, translate3d(#{map-get($sidebar, lg-screen-width)}, 0, 0), 'webkit' 'moz');
+  }
+  // Buttons
+  ul.sidebar-buttons {
+    li.sidebar-button {
+      text-align: left;
+
+      .sidebar-button-link {
+        text-align: left;
+        width: auto;
+        padding-left: 23px;
+        padding-top: 0;
+
+        // Font-awesome icon
+        .sidebar-button-icon {
+          font-size: 1.8rem;
+          display: inline-block;
+          text-align: center;
+          width: 30px;
+          height: 30px;
+          line-height: 30px;
+          padding-top: 0;
+          vertical-align: middle;
+          margin-right: 15px;
+        }
+        // Description (name) of a link
+        .sidebar-button-desc {
+          display: inline-block;
+          width: auto;
+          height: 35px;
+          line-height: 35px;
+          font-size: 1.5rem;
+          letter-spacing: 0.3px;
+          vertical-align: middle;
+        }
+      }
     }
+  }
+  // Used to animate the sidebar (pushed effect)
+  &.pushed {
+    @include prefix(
+      transform,
+      translate3d(#{map-get($sidebar, lg-screen-width)}, 0, 0),
+      'webkit' 'moz'
+    );
+  }
 }
 
 /// Mixin helper to display the sidebar in large size
 @mixin sidebar-xlg {
-    width:           map-get($sidebar, xlg-screen-width);
-    display:         -webkit-flex;
-    display:         -webkit-box;
-    display:         -moz-box;
-    display:         -ms-flexbox;
-    display:         flex;
-    flex-direction:  column;
-    justify-content: center;
+  width: map-get($sidebar, xlg-screen-width);
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
-    .sidebar-container {
-        position: relative;
-        padding:  0 80px;
-    }
-    // Author information
-    .sidebar-profile {
-        padding-top:    0;
-        padding-bottom: 7.5px;
+  .sidebar-container {
+    position: relative;
+    padding: 0 80px;
+  }
+  // Author information
+  .sidebar-profile {
+    padding-top: 0;
+    padding-bottom: 7.5px;
 
-        .sidebar-profile-picture {
-            width:         90px;
-            height:        90px;
-            border-radius: 90px;
-            margin-bottom: 5px;
-        }
-        .sidebar-profile-bio,
-        .sidebar-profile-job,
-        .sidebar-profile-location {
-            font-weight: 400;
-            font-size:   1.6rem;
-            color:       map-get($sidebar, color);
-        }
-        .sidebar-profile-job,
-        .sidebar-profile-location {
-            margin-top: 0;
-            width:      49%;
-            display:    inline-block;
-        }
+    .sidebar-profile-picture {
+      width: 90px;
+      height: 90px;
+      border-radius: 90px;
+      margin-bottom: 5px;
     }
-    // Buttons
-    ul.sidebar-buttons {
-        width:          49%;
-        vertical-align: top;
-        display:        inline-block;
+    .sidebar-profile-bio,
+    .sidebar-profile-job,
+    .sidebar-profile-location {
+      font-weight: 400;
+      font-size: 1.6rem;
+      color: map-get($sidebar, color);
+    }
+    .sidebar-profile-job,
+    .sidebar-profile-location {
+      margin-top: 0;
+      width: 49%;
+      display: inline-block;
+    }
+  }
+  // Buttons
+  ul.sidebar-buttons {
+    width: 49%;
+    vertical-align: top;
+    display: inline-block;
 
-        li.sidebar-button {
-            text-align: left;
-            box-sizing: border-box;
-            .sidebar-button-link {
-                text-align:  left;
-                width:       auto;
-                padding-top: 0;
-                white-space: nowrap;
-                // Font-awesome icon
-                .sidebar-button-icon {
-                    font-size:      1.8rem;
-                    float:          left;
-                    text-align:     center;
-                    width:          30px;
-                    height:         35px;
-                    line-height:    35px;
-                    padding-top:    0;
-                    vertical-align: middle;
-                    margin-right:   15px;
-                }
-                // Description (name) of a link
-                .sidebar-button-desc {
-                    display:        block;
-                    width:          auto;
-                    height:         35px;
-                    line-height:    35px;
-                    font-size:      1.5rem;
-                    letter-spacing: 0.3px;
-                    vertical-align: middle;
-                    overflow:       hidden;
-                    white-space:    nowrap;
-                    text-overflow:  ellipsis;
-                }
-            }
-            &:nth-child(odd) {
-                padding-right: 20px;
-            }
+    li.sidebar-button {
+      text-align: left;
+      box-sizing: border-box;
+      .sidebar-button-link {
+        text-align: left;
+        width: auto;
+        padding-top: 0;
+        white-space: nowrap;
+        // Font-awesome icon
+        .sidebar-button-icon {
+          font-size: 1.8rem;
+          float: left;
+          text-align: center;
+          width: 30px;
+          height: 35px;
+          line-height: 35px;
+          padding-top: 0;
+          vertical-align: middle;
+          margin-right: 15px;
         }
+        // Description (name) of a link
+        .sidebar-button-desc {
+          display: block;
+          width: auto;
+          height: 35px;
+          line-height: 35px;
+          font-size: 1.5rem;
+          letter-spacing: 0.3px;
+          vertical-align: middle;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+        }
+      }
+      &:nth-child(odd) {
+        padding-right: 20px;
+      }
     }
-    // Used to animate the sidebar (pushed effect)
-    &.pushed {
-        @include prefix(transform, translate3d(#{map-get($sidebar, xlg-screen-width)}, 0, 0), 'webkit' 'moz');
-    }
+  }
+  // Used to animate the sidebar (pushed effect)
+  &.pushed {
+    @include prefix(
+      transform,
+      translate3d(#{map-get($sidebar, xlg-screen-width)}, 0, 0),
+      'webkit' 'moz'
+    );
+  }
 }

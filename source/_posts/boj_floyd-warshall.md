@@ -1,5 +1,5 @@
 ---
-title: Floyd-Warshall 알고리즘  - BOJ 11404번 플로이드
+title: Floyd-Warshall 알고리즘 (최단 경로 문제)
 tags: [floyd-warshall, graph]
 categories: [Algorithm]
 thumbnailImage: 'https://i.imgur.com/ydX4P1X.png'
@@ -7,6 +7,9 @@ permalink: ''
 date: 2022-07-28 10:43:12
 ---
 
+**BOJ 11404번 플로이드**
+
+<!-- excerpt -->
 <!-- toc -->
 
 ## Floyd-Warshall 알고리즘이란
