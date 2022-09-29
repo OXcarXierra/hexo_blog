@@ -112,8 +112,8 @@ sidebar:
 #     class: open-algolia-search
 header:
   right_link:
-    url: /posts
-    icon: fa fa-list
+    url: /
+    icon: fa fa-home
     class:
 
 # ------

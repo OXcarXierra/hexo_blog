@@ -127,7 +127,7 @@ for i in range(1, V+1):
 
 이 부분에서 헷갈린게 있었는데, 최악의 경우 E는 V^2 스케일일 때 복잡도를 비교하면 전자가 더 빠르다. 즉 그래프가 sparse할 때만 효율적이다.
 
-> 참고문헌
+> 참고자료
 > https://techblog-history-younghunjo1.tistory.com/248?category=1014800
 > 위 블로그가 정말 설명이 깔끔하게 잘 되어있다. 다른 알고리즘도 참고해 보아야겠다
 > https://namu.wiki/w/다익스트라 알고리즘

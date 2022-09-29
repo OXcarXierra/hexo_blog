@@ -107,5 +107,5 @@ print(LCS[la][lb])
 print(*reversed(sequence), sep='')
 ```
 
-> 참고문헌
+> 참고자료
 > https://velog.io/@emplam27/알고리즘-그림으로-알아보는-LCS-알고리즘-Longest-Common-Substring와-Longest-Common-Subsequence

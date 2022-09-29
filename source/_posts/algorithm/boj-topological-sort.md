@@ -102,5 +102,5 @@ print(*t)
 
 <!-- ## DFS를 이용한 방법 -->
 
-> 참고문헌
+> 참고자료
 > https://yoongrammer.tistory.com/86
