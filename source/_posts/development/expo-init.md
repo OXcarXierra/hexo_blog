@@ -1,9 +1,9 @@
 ---
-title: Expo memos & troubleshooting
+title: Expo 라이브러리로 React-Native 앱 시작하기
 tags: []
 categories: [Development]
 permalink: ''
-thumbnailImage: ''
+thumbnailImage: 'https://i.imgur.com/pMDZp1L.png'
 thumbnailImagePosition: right
 date: 2022-09-27 11:20:51
 ---
