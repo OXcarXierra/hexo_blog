@@ -1,6 +1,6 @@
 ---
-title: luxon.js 라이브러리로 날짜/시간 포맷팅하기
-tags: []
+title: '[React] Luxon.js 라이브러리로 날짜/시간 포맷팅하기'
+tags: [React]
 categories: [Development]
 permalink: ''
 thumbnailImage: 'https://i.imgur.com/iwTskEa.png'

@@ -13,9 +13,7 @@ date: 2022-09-01 19:59:02
 
 - **군장병 공개SW 온라인 해커톤** 준비로 바빴다. 코딩테스트 준비를 위해 BOJ 문제들을 난이도순으로 풀었고, 도중에 모르는 자료구조나 알고리즘은 종만북과 친절하게 설명해 놓은 블로그들을 참고하며 배울 수 있었다. 새로 알게된 내용은 블로그에 나만의 언어로 정리해서 포스팅하며 복습도 했다. 실제로 코딩테스트에 DP와 BFS문제가 나와서 공부했던 내용을 잘 써먹을 수 있었다. Dart 언어와 Flutter도 제공하는 강의를 모두 수강했더니 이론평가도 어렵지 않게 풀 수 있었다.
 
-<img src="https://imgur.com/dzRvkOI.png"/>
-
-> 알고리즘 공부를 시작하고 1개월 반동안 solved.ac 레이팅도 많이 올랐다!
+{% image fancybox clear center fig-100 https://imgur.com/dzRvkOI.png "알고리즘 공부를 시작하고 1개월 반동안 solved.ac 레이팅도 많이 올랐다!"%}
 
 <br >
 
@@ -31,9 +29,7 @@ date: 2022-09-01 19:59:02
 
 <br >
 
-{% image center https://i.imgur.com/vhgtCzI.jpg %}
-
-> PFC Oh promoted to CPL Oh!🫡
+{% image center https://i.imgur.com/vhgtCzI.jpg "PFC Oh promoted to CPL Oh!🫡"%}
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: USFK Bus App 제작 후기 및 Troubleshooting
-tags: [react native, django]
+tags: [React, Django]
 categories: [Development]
 thumbnailImage: 'https://imgur.com/LZXt7Dn.png'
 thumbnailImagePosition: right
