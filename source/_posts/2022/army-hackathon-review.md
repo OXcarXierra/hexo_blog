@@ -1,9 +1,9 @@
 ---
-title: '[2022 군장병 공개 SW 온라인 해커톤] 과학기술정보통신부 장관상 수상 후기'
+title: "[2022 군장병 공개 SW 온라인 해커톤] 과학기술정보통신부 장관상 수상 후기"
 tags: []
 categories: [Development]
-permalink: ''
-thumbnailImage: 'https://i.imgur.com/kLfQaQh.png'
+permalink: ""
+thumbnailImage: "https://i.imgur.com/kLfQaQh.png"
 thumbnailImagePosition: right
 date: 2022-11-14 19:41:15
 ---

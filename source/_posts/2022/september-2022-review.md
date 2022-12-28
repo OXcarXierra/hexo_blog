@@ -1,10 +1,10 @@
 ---
-title: 2022년 9월 회고록
+title: 2022년 9월 회고
 tags: [retrospective]
 categories:
-  - Monthly Retrospectives
-permalink: ''
-thumbnailImage: ''
+  - Review
+permalink: ""
+thumbnailImage: ""
 thumbnailImagePosition: right
 date: 2022-09-30 02:17:42
 ---
@@ -31,5 +31,5 @@ date: 2022-09-30 02:17:42
 
 ## 읽은 책들
 
-**제로 투 원** - 피터 틸
-**1Q84 #3** - 무라카미 하루키
+- **<제로 투 원>** - 피터 틸
+- **<1Q84 #3>** - 무라카미 하루키

@@ -1,6 +1,6 @@
 ---
-title: 'About Me'
-layout: 'page'
+title: "About Me"
+layout: "page"
 ---
 
 ## 📚 학력 / Education

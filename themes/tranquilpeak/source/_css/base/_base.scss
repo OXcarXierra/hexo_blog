@@ -3,10 +3,10 @@ html {
   // equal to 10px, useful to use em and rem
   font-size: 10px;
   // Gives you better control of the font size when the first selected font is not available.
-  @include prefix(text-size-adjust, 100%, 'ms' 'webkit');
+  @include prefix(text-size-adjust, 100%, "ms" "webkit");
   // Overrides the highlight color shown when the user taps
   //a link or a JavaScript clickable element in Safari on iPhone
-  @include prefix(tap-highlight-color, rgba(0, 0, 0, 0), 'webkit');
+  @include prefix(tap-highlight-color, rgba(0, 0, 0, 0), "webkit");
 }
 
 body {
@@ -14,13 +14,13 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background: white;
+  background: #1d1d1d;
   font-family: $font-family-base;
   font-size: map-get($font-size, base);
   line-height: $line-height-base;
   letter-spacing: $letter-spacing-base;
   // Improve smoothing of the font by adding subpixel in Safari
-  @include prefix(font-smoothing, subpixel-antialiased, 'webkit');
+  @include prefix(font-smoothing, subpixel-antialiased, "webkit");
 
   // Hide overflow-x when the sidebar is swiped
   &.pushed {
@@ -34,11 +34,10 @@ h3,
 h4,
 h5,
 h6 {
-  letter-spacing: -0.04em;
-  font-family: map-get($font-families, 'headings');
-  font-weight: 700;
+  font-family: map-get($font-families, "headings");
+  font-weight: 500;
   line-height: 1.45em;
-  color: #4a4a4a;
+  color: #e1e1e1;
 }
 
 h1,
@@ -129,9 +128,10 @@ pre > code {
   width: 100%;
   box-sizing: border-box;
   padding: 15px;
-  font-family: #{map-get($font-families, 'highlight')};
+  font-family: #{map-get($font-families, "highlight")};
   border: none;
   margin: 0;
+  color: #fff;
   // To override cursor attribute of `.tag` components
   cursor: text;
   overflow-x: auto;
@@ -143,9 +143,9 @@ pre > code {
 code {
   font-size: map-get($font-size, medium);
   display: inline-block;
-  font-family: map-get($font-families, 'code');
+  font-family: map-get($font-families, "code");
   font-weight: 400;
-  background-color: map-get($highlight, 'background');
+  background-color: map-get($highlight, "background");
   padding: 0 10px;
 }
 
@@ -155,14 +155,14 @@ abbr {
 }
 
 blockquote {
-  border-left: 3px solid map-get($colors, 'base');
+  border-left: 3px solid map-get($colors, "base");
   padding: 0 15px;
   font-style: italic;
   margin: 1.5em 0 0;
 
   cite {
     &:before {
-      content: ' — ';
+      content: " — ";
       padding: 0 0.3em;
     }
   }

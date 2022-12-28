@@ -1,10 +1,10 @@
 ---
-title: 2022년 10월 회고록
+title: 2022년 10월 회고
 tags: [retrospective]
 categories:
-  - Monthly Retrospectives
-permalink: ''
-thumbnailImage: ''
+  - Review
+permalink: ""
+thumbnailImage: ""
 thumbnailImagePosition: right
 date: 2022-11-03 16:18:39
 ---

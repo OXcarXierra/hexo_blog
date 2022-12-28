@@ -1,10 +1,10 @@
 ---
-title: 2022년 6월 회고록
+title: 2022년 6월 회고
 tags: [retrospective]
 categories:
-  - Monthly Retrospectives
-thumbnailImage: ''
-permalink: ''
+  - Review
+thumbnailImage: ""
+permalink: ""
 date: 2022-06-30 17:47:53
 ---
 

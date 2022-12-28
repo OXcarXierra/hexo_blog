@@ -1,10 +1,10 @@
 ---
-title: 2022년 8월 회고록
+title: 2022년 8월 회고
 tags: [retrospective]
 categories:
-  - Monthly Retrospectives
-permalink: ''
-thumbnailImage: ''
+  - Review
+permalink: ""
+thumbnailImage: ""
 thumbnailImagePosition: right
 date: 2022-09-01 19:59:02
 ---
@@ -35,5 +35,5 @@ date: 2022-09-01 19:59:02
 
 ## 읽은 책들
 
-**1Q84 #2** - 무라카미 하루키
-**규칙 없음** - 리드 헤이스팅스 ∙ 에린 마이어
+**<1Q84 #2>** - 무라카미 하루키
+**<규칙 없음>** - 리드 헤이스팅스 ∙ 에린 마이어 (진중문고)
