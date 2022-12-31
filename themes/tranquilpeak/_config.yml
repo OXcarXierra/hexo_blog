@@ -160,7 +160,7 @@ sidebar_behavior: 2
 # enjoy wide images and cover images. (true: enable, false: disable)
 clear_reading: false
 # Display thumbnail image of each post on index pages (false: disabled, true: enabled)
-thumbnail_image: false
+thumbnail_image: true
 # Display thumbnail image at the right of title in index pages (`right`, `left` or `bottom`)
 # Set this value to `right` if you have old posts to keep the old style on them
 # and define `thumbnailImagePosition` on a post to overwrite this setting
@@ -244,7 +244,7 @@ utterances:
 # -------------------
 
 # Your Google analystics web property ID : UA-XXXXX-X
-google_analytics_id: G-JHBEZ8W1TY
+google_analytics_id: G-19V9VE6BEX
 # Your Baidu analystics web property ID : 9505a5af654a2478f93fd6c0ae4f687d
 baidu_analytics_id:
 # Your Gravatar email. Overwrite `author.picture` everywhere in the blog

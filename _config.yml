@@ -5,8 +5,9 @@
 # Site
 title: Blog of oxcarxierra
 subtitle: oxcarxierra
-description: "오승석"
+description: "안녕하세요, 오승석입니다👋"
 keywords:
+  ["오승석", "oxcarxierra", "Seungseok Oh", "서울과학고등학교", "서울대학교"]
 author: oxcarxierra | 오승석
 language: en
 timezone: "Asia/Seoul"
@@ -81,7 +82,7 @@ meta_generator: true
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## updated_option supports 'mtime', 'date', 'empty'
-updated_option: "mtime"
+updated_option: "date"
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -117,7 +118,7 @@ nofollow:
 
 # sitemap auto generator
 sitemap:
-  path: sitemap.xml
+  path: /sitemap.xml
   tag: true # 사이트맵에 태그 주소 포함 여부
   category: true # 사이트맵에 카테고리 주소 포함 여부
 
